@@ -19,7 +19,7 @@ void insertionSort1(int n, vector<int> arr) {
             break;
         }
         else{
-            arr[i] = arr[i -1];
+            arr[i] = arr[i - 1];
             printArray(arr);
             if(i == 1){
                 arr[0] = lastElem;
